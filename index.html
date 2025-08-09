@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="screen-active" id="start-screen">
+            <h1>Quiz Time!</h1>
+            <p>Test your knowledge with the following questions</p>
+            <button id="start-btn">Start</button>
+
+        </div>
+
+        <div class="screen" id="quiz-screen">
+
+            <div class="quiz-header">
+                <h2 id="question-text">Question placeholder</h2>
+                <div id="quiz-info">
+                    <p>Question <span id="current-question">1</span> of <span>5</span></p>
+                    <p>Score: <span id="score">0</span></p>
+                </div>
+            </div>
+
+            <div class="answers-container" id="answers-container">
+
+            </div>
+
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+
+        </div>
+
+        <div id="results-screen" class="screen">
+            <h1>Results</h1>
+            <div class="results-info">
+                <p>Your score is <span id="final-score">score placeholder</span> out of <span id="max-score">max placeholder</span></p>
+            </div>
+
+            <div id="results-message">Mehhh</div>
+        </div>
+
+        <button id="restart-btn">Restart quiz</button>
+
+    </div>
+    
+</body>
+</html>
